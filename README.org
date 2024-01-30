@@ -1,10 +1,4 @@
 #+title: Unnamed Game
-
-* Idea
-A Vampire Survivor's inspired game, but instead of overhead view, a 2d
-platformer like view, and enemies would come from many places and the
-player should try to hop onto platforms.
-
 * Setup
 
 This was bootstrapped following [[https://sr.ht/~benthor/absolutely-minimal-love2d-fennel/][this]] guide.
@@ -13,3 +7,12 @@ To develop, just run
 #+begin_src bash
   nix develop
 #+end_src
+
+Still does not work with REPL (I don't know how to).
+
+So, just run
+#+begin_src bash
+  love .
+#+end_src
+
+Whenever you change the code
