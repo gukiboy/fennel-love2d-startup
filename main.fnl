@@ -13,7 +13,7 @@ while 1 do love.event.push('stdin', io.read('*line')) end") :start))
 ;; ------------------------------------------------------------------------------------
 
 (fn love.draw []
-  (love.graphics.print "LELE!\nPress any key to quit" 10 10))
+  (love.graphics.print "Hello World!" 10 10))
 
 (fn love.keypressed [key]
   (love.event.quit))
